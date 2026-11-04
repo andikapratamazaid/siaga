@@ -1,4 +1,4 @@
-# SIAGA — Sistem Asisten Kerja Lapangan
+# SIAGA - Sistem Asisten Kerja Lapangan
 
 Asisten chat berbasis peran (WhatsApp-first) untuk pekerja site konstruksi: briefing dan reminder harian,
 checklist digital, pusat K3, permit to work, tanya SOP hanya dari dokumen proyek, laporan harian dengan
@@ -6,10 +6,10 @@ persetujuan pelaksana, dan AI Solusi Cepat berbasis playbook kasus lapangan yang
 
 ## Isi repo
 - `app/`, `config/`, `database/`, `routes/` — paket backend Laravel 11 (ditumpangkan ke proyek Laravel baru, lihat "Menjalankan").
-- `demo/SIAGA_Live.html` — demo satu berkas yang berjalan penuh di browser (simulator chat 10 peran + dashboard). Buka langsung atau sajikan sebagai halaman statis.
-- `docs/konsep-siaga.pdf` — dokumen konsep (7 halaman). `docs/desain-alur-siaga.pdf` — desain alur/flow (7 halaman).
+- `demo/SIAGA_Live.html` - demo satu berkas yang berjalan penuh di browser (simulator chat 10 peran + dashboard). Buka langsung atau sajikan sebagai halaman statis.
+- `docs/konsep-siaga.pdf` - dokumen konsep (7 halaman). `docs/desain-alur-siaga.pdf` - desain alur/flow (7 halaman).
 
-# SIAGA (Laravel) — paket backend, disempurnakan 3 November 2026
+# SIAGA (Laravel) - paket backend, disempurnakan 3 November 2026
 Berkas ini ditumpangkan ke proyek Laravel 11 baru. Versi ini adalah hasil penyempurnaan kerangka awal:
 bug diperbaiki, data awal dilengkapi, dan tiga bagian yang sebelumnya belum ada kini ditambahkan
 (Hazard Report, Briefing pagi, Solusi Cepat AI, ringkasan dashboard).
